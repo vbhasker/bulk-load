@@ -1,8 +1,8 @@
 {
   "name": "bulk-load",
-  "description": "Plugin to bulk load data into Salesforce.",
+  "description": "Plugin for bulk loading data into Salesforce.",
   "version": "0.0.1a",
-  "author": "vinodh @vbhasker",
+  "author": "vbhasker",
   "bugs": "https://github.com/vbhasker/bulk-load/issues",
   "dependencies": {
     "@oclif/command": "^1",
@@ -64,6 +64,9 @@
     "commands": "./lib/commands",
     "bin": "sfdx",
     "topics": {
+      "bulkload": {
+        "description": "Commands to execute bulk batch jobs in Salesforce."
+      },
       "hello": {
         "description": "Commands to say hello."
       }
